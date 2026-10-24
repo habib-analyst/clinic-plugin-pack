@@ -1,0 +1,18 @@
+{
+  "name": "clinic-plugin-pack",
+  "description": "Clinic front-desk skills for Claude Code: find a doctor, book, reschedule, and cancel appointments. Compiled with packc from a typed source pack (schemas, flows, escalation policy) and shipped with the generated MCP tool server, so every tool call is validated against the pack's typed contracts. Booking and cancellation require confirmation by default; emergencies escalate to a human. Front-desk logistics only \u2014 no medical advice.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Habib Ur Rehman"
+  },
+  "license": "MIT",
+  "keywords": [
+    "medical",
+    "clinic",
+    "healthcare",
+    "appointments",
+    "front-desk",
+    "mcp",
+    "skills"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "clinic": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/mcp/clinic_mcp_server.py"
+      ]
+    }
+  }
+}

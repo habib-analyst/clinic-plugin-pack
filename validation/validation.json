@@ -1,0 +1,183 @@
+{
+  "checks_total": 35,
+  "checks_passed": 35,
+  "checks": [
+    {
+      "id": "manifest.exists",
+      "ok": true,
+      "detail": "/home/hatch/workspace/goals/github-portfolio-linkedin-presence-buildout/hidden_files/builds/clinic-plugin-pack/plugin/.claude-plugin/plugin.json"
+    },
+    {
+      "id": "manifest.valid_json",
+      "ok": true,
+      "detail": "plugin.json parses"
+    },
+    {
+      "id": "manifest.name_slug",
+      "ok": true,
+      "detail": "name='clinic-plugin-pack'"
+    },
+    {
+      "id": "manifest.description",
+      "ok": true,
+      "detail": "434 chars"
+    },
+    {
+      "id": "manifest.author_name",
+      "ok": true,
+      "detail": "author='Habib Ur Rehman'"
+    },
+    {
+      "id": "manifest.version_semver",
+      "ok": true,
+      "detail": "version='0.1.0'"
+    },
+    {
+      "id": "manifest.no_unknown_keys",
+      "ok": true,
+      "detail": "all known"
+    },
+    {
+      "id": "layout.readme",
+      "ok": true,
+      "detail": "plugin/README.md"
+    },
+    {
+      "id": "layout.license",
+      "ok": true,
+      "detail": "plugin/LICENSE"
+    },
+    {
+      "id": "layout.skills_present",
+      "ok": true,
+      "detail": "4 skill dirs"
+    },
+    {
+      "id": "layout.skills_match_source",
+      "ok": true,
+      "detail": "source=['book-appointment', 'cancel-appointment', 'find-doctor', 'reschedule-appointment'] packed=['book-appointment', 'cancel-appointment', 'find-doctor', 'reschedule-appointment']"
+    },
+    {
+      "id": "skill.book-appointment.file",
+      "ok": true,
+      "detail": "/home/hatch/workspace/goals/github-portfolio-linkedin-presence-buildout/hidden_files/builds/clinic-plugin-pack/plugin/skills/book-appointment/SKILL.md"
+    },
+    {
+      "id": "skill.book-appointment.frontmatter",
+      "ok": true,
+      "detail": "YAML frontmatter parses"
+    },
+    {
+      "id": "skill.book-appointment.name_matches_dir",
+      "ok": true,
+      "detail": "frontmatter name='book-appointment'"
+    },
+    {
+      "id": "skill.book-appointment.description",
+      "ok": true,
+      "detail": "136 chars"
+    },
+    {
+      "id": "skill.cancel-appointment.file",
+      "ok": true,
+      "detail": "/home/hatch/workspace/goals/github-portfolio-linkedin-presence-buildout/hidden_files/builds/clinic-plugin-pack/plugin/skills/cancel-appointment/SKILL.md"
+    },
+    {
+      "id": "skill.cancel-appointment.frontmatter",
+      "ok": true,
+      "detail": "YAML frontmatter parses"
+    },
+    {
+      "id": "skill.cancel-appointment.name_matches_dir",
+      "ok": true,
+      "detail": "frontmatter name='cancel-appointment'"
+    },
+    {
+      "id": "skill.cancel-appointment.description",
+      "ok": true,
+      "detail": "119 chars"
+    },
+    {
+      "id": "skill.find-doctor.file",
+      "ok": true,
+      "detail": "/home/hatch/workspace/goals/github-portfolio-linkedin-presence-buildout/hidden_files/builds/clinic-plugin-pack/plugin/skills/find-doctor/SKILL.md"
+    },
+    {
+      "id": "skill.find-doctor.frontmatter",
+      "ok": true,
+      "detail": "YAML frontmatter parses"
+    },
+    {
+      "id": "skill.find-doctor.name_matches_dir",
+      "ok": true,
+      "detail": "frontmatter name='find-doctor'"
+    },
+    {
+      "id": "skill.find-doctor.description",
+      "ok": true,
+      "detail": "145 chars"
+    },
+    {
+      "id": "skill.reschedule-appointment.file",
+      "ok": true,
+      "detail": "/home/hatch/workspace/goals/github-portfolio-linkedin-presence-buildout/hidden_files/builds/clinic-plugin-pack/plugin/skills/reschedule-appointment/SKILL.md"
+    },
+    {
+      "id": "skill.reschedule-appointment.frontmatter",
+      "ok": true,
+      "detail": "YAML frontmatter parses"
+    },
+    {
+      "id": "skill.reschedule-appointment.name_matches_dir",
+      "ok": true,
+      "detail": "frontmatter name='reschedule-appointment'"
+    },
+    {
+      "id": "skill.reschedule-appointment.description",
+      "ok": true,
+      "detail": "133 chars"
+    },
+    {
+      "id": "mcp.exists",
+      "ok": true,
+      "detail": "/home/hatch/workspace/goals/github-portfolio-linkedin-presence-buildout/hidden_files/builds/clinic-plugin-pack/plugin/.mcp.json"
+    },
+    {
+      "id": "mcp.valid_json",
+      "ok": true,
+      "detail": "servers: ['clinic']"
+    },
+    {
+      "id": "mcp.clinic.entry_shape",
+      "ok": true,
+      "detail": "command='python3' url=None"
+    },
+    {
+      "id": "mcp.clinic.server_file_exists",
+      "ok": true,
+      "detail": "mcp/clinic_mcp_server.py"
+    },
+    {
+      "id": "mcp.clinic.server_compiles",
+      "ok": true,
+      "detail": "mcp/clinic_mcp_server.py"
+    },
+    {
+      "id": "mcp.all_pack_tools_served",
+      "ok": true,
+      "detail": "declared=['appointment_book', 'appointment_cancel', 'appointment_reschedule', 'doctors_search'] missing=[]"
+    },
+    {
+      "id": "refs.none_dangling",
+      "ok": true,
+      "detail": "3 references checked, 0 dangling"
+    },
+    {
+      "id": "marketplace.name_matches_manifest",
+      "ok": true,
+      "detail": "entry name='clinic-plugin-pack'"
+    }
+  ],
+  "references_checked": 3,
+  "dangling": []
+}
